@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Nutrient Analysis</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Nutrient Analysis</div>
+            <ul>
+                <li><a href="./index.html">Home</a></li> 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login-section">
+            <h1>Login</h1>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="button" class="btn" onclick="validateLogin()">Login</button>
+            </form>
+            <p id="errorMessage" class="error-message"></p> 
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nutrient Analysis. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script> 
+</body>
+</html>
